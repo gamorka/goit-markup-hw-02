@@ -15,7 +15,7 @@ ul {
 
 /*--------HEADER-------*/
 .header-logo {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #FFF;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -133,6 +133,7 @@ ul {
 }
 /*--------------------*/
 
+/*-----SECTION 3-----*/
 .hero-team-list {
     background: var(--CLOUD, #F4F4FD);
 }
@@ -143,7 +144,7 @@ ul {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -164,6 +165,8 @@ ul {
     line-height: 1.5;
     letter-spacing: -0.02em;
 }
+/*--------------------*/
+
 
 .portfolio-title {
     color: var(--NAVY-BLUE, #2E2F42);
