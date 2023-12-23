@@ -14,7 +14,6 @@ ul {
 }
 
 /*--------HEADER-------*/
-/* Стилі для логотипу */
 .header-logo {
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: "Raleway", sans-serif;
@@ -25,7 +24,6 @@ ul {
     text-transform: uppercase;
 }
 
-/* Стилі для тексту "Studio" всередині логотипу */
 .logo-color-span {
     color: var(--IRIS, #4D5AE5);
     font-family: Raleway;
@@ -35,8 +33,7 @@ ul {
     letter-spacing: -0.03em;
     text-transform: uppercase;
 }
-  
-/* Стилі для посилань у меню */
+
 .header-menu-link {
     color:#2E2F42;
     font-size: 16px;
@@ -45,14 +42,11 @@ ul {
     letter-spacing: -0.02em;
 }
 
-
-/* Зміна кольору тексту посилань при наведенні */
 .header-menu-link:hover, 
 .header-menu-link:active {
     color: #404BBF;
 }
 
-/* Стилі для контактної інформації у хедері */
 .header-contacts {
     color: var(--SLATE, #434455);
     font-size: 16px;
@@ -61,18 +55,14 @@ ul {
     letter-spacing: -0.02em;
 }
 
-
-/* Зміна кольору контактної інформації при наведенні */
 .header-contacts:hover {
     color: #404BBF;
 }
 
-/* Стилі для адреси у хедері */
 .address {
     font-style: normal;
 }
 
-/* Стилі для посилань контактної інформації */
 .address a {
     font-size: 16px;
     line-height: 1.5;
@@ -80,12 +70,10 @@ ul {
     color: #434455;
 }
 
-/* Зміна кольору тексту контактної інформації при наведенні */
 .address a:hover {
     color: #404BBF;
 }
 
-/* Зміна кольору тексту контактної інформації при кліку */
 .address a:focus {
     color: #404BBF;
 }
@@ -125,15 +113,15 @@ ul {
 .hero-button-service:focus {
     background-color: #404BBF;
 }
-/*---------------*/
+/*--------------------*/
 
-
+/*-----SECTION 2-----*/
 .facilities-titel{
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 .facilities-paragraph {
@@ -141,8 +129,9 @@ ul {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
+/*--------------------*/
 
 .hero-team-list {
     background: var(--CLOUD, #F4F4FD);
