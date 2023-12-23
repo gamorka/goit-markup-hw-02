@@ -24,7 +24,7 @@ ul {
     text-transform: uppercase;
 }
 
-.logo-color-span {
+.logo-header-span {
     color: var(--IRIS, #2e2f42);
     font-family: Raleway;
     font-size: 18px;
@@ -212,22 +212,32 @@ ul {
 /*--------------------*/
 
 /*-----FOOTER-----*/
+.footer-logo {
+    color: var(--CLOUD, #4d5ae5);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-footer-span {
+    color: var(--CLOUD, #F4F4FD);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
 .footer-paragraph {
     color: var(--CLOUD, #F4F4FD);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: -0.02em;
-}
-
-.footer-logo{
-    color: var(--CLOUD, #F4F4FD);
-        font-family: 'Raleway', sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.16;
-        letter-spacing: -0.03em;
-        text-transform: uppercase;
+    letter-spacing: 0.02em;
 }
 
 .footer-style {
