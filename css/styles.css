@@ -117,7 +117,7 @@ ul {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: -0.04em;
+    letter-spacing: 0.04em;
     cursor: pointer;
     background: var(--IRIS, #4D5AE5);
 }
