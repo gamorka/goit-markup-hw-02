@@ -91,17 +91,18 @@ ul {
 }
 /*-----------------*/
 
+/*-----SECTION 1-----*/
 .hero {
     background: var(--NAVY-BLUE, #2E2F42);
 }
 
-.hero-titel {
+.hero-title {
     color: var(--WHITE, #FFF);
     text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 .hero-button-service {
@@ -112,7 +113,20 @@ ul {
     line-height: 1.5;
     letter-spacing: -0.04em;
     cursor: pointer;
-} 
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.hero-button-service:hover {
+    background-color: #404BBF;
+}
+
+.hero-button-service:focus {
+    background-color: #404BBF;
+}
+/*---------------*/
+
 
 .facilities-titel{
     color: var(--NAVY-BLUE, #2E2F42);
