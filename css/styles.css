@@ -166,6 +166,10 @@ ul {
     text-transform: capitalize;
 }
 
+.team-list {
+    background-color: #FFFFFF
+}
+
 .team-members-names {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
