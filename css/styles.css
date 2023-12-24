@@ -59,7 +59,7 @@ ul {
     font-style: normal
 }
 
-.header-contacts:hover {
+.header-contacts:hover, .header-contacts:focus {
     color: #404BBF;
 }
 
