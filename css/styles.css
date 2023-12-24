@@ -43,11 +43,11 @@ ul {
 }
 
 .header-menu-link:hover {
-    background-color: #404BBF;
+    color: #404BBF;
 }
 
 .header-menu-link:active {
-    background-color: #404BBF;
+    color: #404BBF;
 }
 
 .header-contacts {
@@ -79,7 +79,7 @@ ul {
 }
 
 .address a:focus {
-    color: #404BBF;
+    color: #404bbf;
 }
 
 /*-----------------*/
